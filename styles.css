@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+
+#level-title {
+  font-family: 'Arial';
+  font-size: 3rem;
+  margin: 3%;
+  color: #fef2bf;
+}
+
+#grid {
+  display: grid;
+  width: fit-content;
+  height: fit-content;
+  gap: 20px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.btn {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* Scores */
+
+#scores-container {
+  display: none;
+}
+
+#scores-container h2 {
+  font-family: 'Arial';
+  font-size: 2.5rem;
+  margin: 3%;
+  color: #fef2bf;
+}
+
+#scores-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#scores-list li {
+  font-size: 2rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
